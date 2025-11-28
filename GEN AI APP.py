@@ -35,7 +35,7 @@ if api_key:
             response = model.generate_content(user_msg)
 
             # Bot ka reply show karna
-            st.write("### 🤖 AI Reply:")
+            st.write("###AI Reply:")
             st.success(response.text)
 
 else:
