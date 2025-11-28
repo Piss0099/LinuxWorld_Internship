@@ -84,7 +84,7 @@ def about():
         </p>
 
         <footer>
-            <p>Back to <a href="/">Home</a> | Made with ❤️ using Flask</p>
+            <p>Back to <a href="/">Home</a> | Made with  using Flask</p>
         </footer>
     </body>
     </html>
