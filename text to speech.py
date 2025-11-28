@@ -35,7 +35,7 @@ while True:
         elif "play song" in text:
             speaker.say("Playing song on YouTube")
             speaker.runAndWait()
-            pywhatkit.playonyt("Adharam madhuram")
+            pywhatkit.playonyt("Mohatar Ma")
 
         elif "search google" in text:
             speaker.say("Searching Google")
@@ -45,10 +45,10 @@ while True:
         elif "send message" in text:
             speaker.say("Sending Whatsapp Message")
             speaker.runAndWait()
-            pywhatkit.sendwhatmsg_instantly("+919162693606", "Hi this is Rohit Mittal")
+            pywhatkit.sendwhatmsg_instantly("ENTER WHERE TO SEND NUMBER", "Hi this IS Ravi Choudhary")
 
         elif "exit" in text or "quit" in text:
-            speaker.say("Goodbye Rohit, shutting down Jarvis")
+            speaker.say("Goodbye Ravi , shutting down Jarvis")
             speaker.runAndWait()
             break
 
