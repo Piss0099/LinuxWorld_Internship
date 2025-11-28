@@ -1,11 +1,11 @@
 #pip install twilio (First)
 from twilio.rest import Client
-ACCOUNT_SID = "ACfbcc218b2"
-AUTH_TOKEN = "1c27f96761e21c4952cad668e4b4fbdf" 
-TWILIO_NUMBER = "      "
-RECIVER_NUMBER = ""
+ACCOUNT_SID = "ENTER SID NUBER FROM OFFICIAL WEB PORTAL"
+AUTH_TOKEN = "ENTER TOKEN NUBER" 
+TWILIO_NUMBER = "  ENTER TWILIO NUMBER WHICH YOU GET FROM WEBSITE    "
+RECIVER_NUMBER = "ENTER WHERE TO SEND SMS"
 Client = Client.message.create(
-    body = " Hello i am Ravi ",
+    body = " Hello I am Ravi ",
     from = TWILIO_NUMBER,
 to=RECEIVER_NUMBER
 )
