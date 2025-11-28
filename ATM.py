@@ -31,14 +31,14 @@ while True:
         user_password = input("Password Dalein: ")
 
         if user_pin == pin and user_password == password:
-            print(green + "\nLogin Safal! ✅\n" + reset)
+            print(green + "\nLogin Safal! \n" + reset)
             break
         else:
             attempts += 1
             print(red + f"Galat PIN ya Password! Bachi koshish: {max_attempts - attempts}\n" + reset)
 
     if attempts == max_attempts:
-        print(red + "\n❌ 3 Baar Galat. ATM Block Ho Gaya!\n" + reset)
+        print(red + "\nX 3 Baar Galat. ATM Block Ho Gaya!\n" + reset)
         break
 
     while True:
@@ -80,7 +80,7 @@ while True:
             print(green + f"Paise Jama Ho Gaye! Naya Balance: ₹{balance}\n" + reset)
 
         elif choice == "4":
-            print(blue + "\nDhanyavaad! ATM Band Ho Raha Hai 👋\n" + reset)
+            print(blue + "\nDhanyavaad! ATM Band Ho Raha Hai \n" + reset)
             exit()
 
         else:
