@@ -14,6 +14,6 @@ try:
     with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
         server.login(EMAIL, APP_PASSWORD)
         server.send_message(msg)
-        print("✅ Email sent successfully!")
+        print("Email sent successfully!")
 except Exception as e:
     print(f"X Error: {e}")
