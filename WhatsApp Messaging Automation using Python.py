@@ -17,5 +17,5 @@ if "open Notepad" in text:
     os.system("Notepad")
 elif "send message" in text :
     print("sending message.. ")
-    pywhatkit.sendwhatmsg_instantly("+919545538877" , "hello Ravi This Side",7,18)
+    pywhatkit.sendwhatmsg_instantly("ENTER NUMBER WHERE TO SEND " , "hello Ravi This Side",7,18)
     
